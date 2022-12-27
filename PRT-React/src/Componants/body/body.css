@@ -1,0 +1,33 @@
+body{
+    background-image: url("./body.jpg");
+}
+.body-wrapper{
+
+    display: flex;
+    position: relative;
+}
+.body-wrapper > input{
+    width: 90vw;
+    height: 2vw;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.body-wrapper > button{
+    position: absolute;
+    right: 5%;
+    margin-top: 20px;
+    height: 2.4vw;
+    width: 2vw;
+}
+.books-shelf{
+    display: inline-block;
+    padding: 20px;
+}
+.books-img{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+margin-top: 20%;
+}
+

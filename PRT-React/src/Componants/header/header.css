@@ -1,0 +1,11 @@
+.header-wrapper{
+    display: flex;
+    position: relative;
+}
+.header-wrapper > h1{
+    position: absolute;
+    right: 40vw;
+    font-size: 50px;
+    color: white;
+    bottom: -20px;
+}
